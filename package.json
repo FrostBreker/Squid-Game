@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "name": "squid-game",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostBreker/Squid-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrostBreker/Squid-Game/issues"
+  },
+  "homepage": "https://frostbreker.github.io/squid-game",
+  "description": ""
+}
