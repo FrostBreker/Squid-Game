@@ -39,7 +39,7 @@ function delay(ms) {
 
 class Doll {
     constructor() {
-        loader.load("https://frostbreker.github.io/Squid-Game/models/scene.gltf", (gltf) => {
+        loader.load("./Squid-Game/models/scene.gltf", (gltf) => {
             scene.add(gltf.scene)
             gltf.scene.scale.set(.4, .4, .4);
             gltf.scene.position.set(0, -1, 0);
